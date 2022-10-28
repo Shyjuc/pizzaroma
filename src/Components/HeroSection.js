@@ -30,15 +30,15 @@ const HeroSection  = () =>{
               </div>
             </div>
             <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Product</a>
+              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Pizzas</a>
 
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Features</a>
+              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Pasta</a>
 
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
+              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Desserts</a>
 
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Company</a>
+              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Salads</a>
 
-              <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
+              <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now</a>
             </div>
           </nav>
         </div>
@@ -61,15 +61,15 @@ const HeroSection  = () =>{
               </div>
             </div>
             <div className="space-y-1 px-2 pt-2 pb-3">
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Product</a>
+              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Pizzas</a>
 
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Features</a>
+              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Pasta</a>
 
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Marketplace</a>
+              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Desserts</a>
 
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Company</a>
+              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Salads</a>
             </div>
-            <a href="#" className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">Log in</a>
+            <a href="#" className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">Order Now</a>
           </div>
         </div>
       </div>
@@ -77,8 +77,8 @@ const HeroSection  = () =>{
       <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-            <span className="block xl:inline">Data to enrich your</span>
-            <span className="block text-indigo-600 xl:inline">online business</span>
+            <span className="block xl:inline"><i>Hot and Fresh...</i></span>
+            <span className="block text-indigo-600 xl:inline">Super Delicious Pizzas!</span>
           </h1>
           <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
