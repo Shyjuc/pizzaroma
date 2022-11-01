@@ -15,7 +15,7 @@ const HeroSection  = () =>{
           <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
             <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
               <div className="flex w-full items-center justify-between md:w-auto">
-                <a href="#">
+                <a href="/">
                   <span className="sr-only">Your Company</span>
                   <img alt="Your Company" className="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=red&shade=600" />
                 </a>
@@ -31,15 +31,15 @@ const HeroSection  = () =>{
               </div>
             </div>
             <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
-              <a href="#" className="font-medium text-[#322212] hover:text-gray-900">Pizzas</a>
+              <a href="/" className="font-medium text-[#322212] hover:text-gray-900">Pizzas</a>
 
-              <a href="#" className="font-medium text-[#322212] hover:text-gray-900">Pasta</a>
+              <a href="/" className="font-medium text-[#322212] hover:text-gray-900">Pasta</a>
 
-              <a href="#" className="font-medium text-[#322212] hover:text-gray-900">Desserts</a>
+              <a href="/" className="font-medium text-[#322212] hover:text-gray-900">Desserts</a>
 
-              <a href="#" className="font-medium text-[#322212] hover:text-gray-900">Salads</a>
+              <a href="/" className="font-medium text-[#322212] hover:text-gray-900">Salads</a>
 
-              <a href="#" className="font-medium text-red-600 hover:text-indigo-500">Order Now</a>
+              <a href="/" className="font-medium text-red-600 hover:text-indigo-500">Order Now</a>
             </div>
           </nav>
         </div>
@@ -62,15 +62,15 @@ const HeroSection  = () =>{
               </div>
             </div>
             <div className="space-y-1 px-2 pt-2 pb-3">
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Pizzas</a>
+              <a href="/" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Pizzas</a>
 
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Pasta</a>
+              <a href="/" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Pasta</a>
 
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Desserts</a>
+              <a href="/" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Desserts</a>
 
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Salads</a>
+              <a href="/" className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900">Salads</a>
             </div>
-            <a href="#" className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100">Order Now</a>
+            <a href="/" className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100">Order Now</a>
           </div>
         </div>
       </div>
@@ -84,10 +84,10 @@ const HeroSection  = () =>{
           <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">The best Italian flavors, are preparing hygienic conditions. We offer to your peace of mind using reliable materials.</p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
-              <a href="#" className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 md:py-4 md:px-10 md:text-lg">View Menu</a>
+              <a href="/" className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 md:py-4 md:px-10 md:text-lg">View Menu</a>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-100 px-8 py-3 text-base font-medium text-red-700 hover:bg-red-200 md:py-4 md:px-10 md:text-lg">Order Now</a>
+              <a href="/" className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-100 px-8 py-3 text-base font-medium text-red-700 hover:bg-red-200 md:py-4 md:px-10 md:text-lg">Order Now</a>
             </div>
           </div>
         </div>
