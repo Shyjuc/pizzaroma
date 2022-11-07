@@ -73,12 +73,13 @@ const HeroSection = () => {
                       Pizzas
                     </Link>
 
-                    <a
-                      href="/"
-                      className="font-medium text-[#322212] hover:text-gray-900"
+                    <Link
+                      to="/pastas"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
                     >
                       Pasta
-                    </a>
+                    </Link>
 
                     <a
                       href="/"
@@ -140,19 +141,21 @@ const HeroSection = () => {
                     </div>
                   </div>
                   <div className="space-y-1 px-2 pt-2 pb-3">
-                    <a
-                      href="/"
+                    <Link
+                      to="/pizzas"
                       className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900"
+                      onClick={closeMobileMenu}
                     >
                       Pizzas
-                    </a>
+                    </Link>
 
-                    <a
-                      href="/"
+                    <Link
+                      to="/pastas"
                       className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900"
+                      onClick={closeMobileMenu}
                     >
                       Pasta
-                    </a>
+                    </Link>
 
                     <a
                       href="/"

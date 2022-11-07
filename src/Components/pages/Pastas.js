@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar";
 import Pasta from "../Pasta";
 import Footer from "../Footer";
 
