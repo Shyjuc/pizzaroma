@@ -83,7 +83,7 @@ const Menu = () => {
     setMenu((draft) => {
       draft = menu;
     });
-  }, []);
+  }, [menu, setMenu]);
 
   return (
     <>
