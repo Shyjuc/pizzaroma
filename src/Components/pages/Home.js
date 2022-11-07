@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar";
 import HeroSection from "../HeroSection";
 import MenuCards from "../MenuCards";
 import MenuLists from "../MenuLists";

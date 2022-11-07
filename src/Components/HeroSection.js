@@ -101,6 +101,10 @@ const HeroSection = () => {
                     >
                       Order Now
                     </a>
+                    <i
+                      onClick={handleClick}
+                      className="bi bi-list mobile-nav-toggle"
+                    ></i>
                   </div>
                 </nav>
               </div>
@@ -177,6 +181,10 @@ const HeroSection = () => {
                   >
                     Order Now
                   </a>
+                  <i
+                    onClick={handleClick}
+                    className="bi bi-list mobile-nav-toggle"
+                  ></i>
                 </div>
               </div>
             </div>
