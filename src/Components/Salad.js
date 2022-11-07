@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Menuitem from "./Menuitem";
 import { useImmer } from "use-immer";
 
@@ -167,6 +168,12 @@ const Menu = () => {
       "100"
     ),
   ]);
+
+  useEffect(() => {
+    setMenu((draft) => {
+      draft = menu;
+    });
+  }, []);
 
   return (
     <>

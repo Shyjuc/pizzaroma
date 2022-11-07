@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Pastaitem from "./Pastaitem";
 import { useImmer } from "use-immer";
 
@@ -77,6 +78,12 @@ const Menu = () => {
       "15.99"
     ),
   ]);
+
+  useEffect(() => {
+    setMenu((draft) => {
+      draft = menu;
+    });
+  }, []);
 
   return (
     <>
