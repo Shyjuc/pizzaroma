@@ -21,7 +21,7 @@ const Menu = () => {
       1,
       "Pizza Margherita",
       "assets/img/pizza_margeritta.png",
-      "Good ingredients",
+      "...",
       "10.99",
       "12.99",
       "14.99",

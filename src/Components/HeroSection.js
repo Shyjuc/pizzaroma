@@ -81,19 +81,21 @@ const HeroSection = () => {
                       Pasta
                     </Link>
 
-                    <a
-                      href="/"
-                      className="font-medium text-[#322212] hover:text-gray-900"
-                    >
-                      Desserts
-                    </a>
-
-                    <a
-                      href="/"
-                      className="font-medium text-[#322212] hover:text-gray-900"
+                    <Link
+                      to="/salads"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
                     >
                       Salads
-                    </a>
+                    </Link>
+
+                    <Link
+                      to="/desserts"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
+                    >
+                      Desserts
+                    </Link>
 
                     <a
                       href="/"
@@ -161,19 +163,21 @@ const HeroSection = () => {
                       Pasta
                     </Link>
 
-                    <a
-                      href="/"
+                    <Link
+                      to="/salads"
                       className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900"
+                      onClick={closeMobileMenu}
+                    >
+                      Salad
+                    </Link>
+
+                    <Link
+                      to="/desserts"
+                      className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900"
+                      onClick={closeMobileMenu}
                     >
                       Desserts
-                    </a>
-
-                    <a
-                      href="/"
-                      className="block rounded-md px-3 py-2 text-base font-medium text-[#322212] hover:bg-gray-50 hover:text-gray-900"
-                    >
-                      Salads
-                    </a>
+                    </Link>
                   </div>
                   <a
                     href="/"

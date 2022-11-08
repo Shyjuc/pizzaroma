@@ -17,63 +17,63 @@ const Menu = () => {
     createData(
       1,
       "Spaghetti Carbonara",
-      "assets/img/pizza_margeritta.png",
+      "assets/img/img_holder.png",
       "Cream Sauce, Crumble Bacon, Yellow Egg with Parmesan Cheese",
       "11.99"
     ),
     createData(
       2,
       "Fusilli Aldo",
-      "assets/img/pizza_toscana.png",
+      "assets/img/img_holder.png",
       "Pepper, Onion, Bolognese with Cream Sauce",
       "10.99"
     ),
     createData(
       3,
       "Fusilli Calabrese",
-      "assets/img/pizza-carbonara.png",
+      "assets/img/img_holder.png",
       "Italian Sausage, Onion, Garlic, Parmesan Cheese, Tomato Sauce",
       "12.99"
     ),
     createData(
       4,
       "Lasagna Classica",
-      "assets/img/pizza-itallian.png",
+      "assets/img/img_holder.png",
       "Homemade Lasagna",
       "11.99"
     ),
     createData(
       5,
       "Marconi Pavarotti",
-      "assets/img/pizza-roma.png",
+      "assets/img/img_holder.png",
       "Cream Sauce, Gorgonzola, Bacon, Broccoli, Fresh Tomato",
       "12.99"
     ),
     createData(
       6,
       "Macaroni Rubal",
-      "assets/img/pizza-calabrian.png",
+      "assets/img/img_holder.png",
       "Mushroom, Fresh Tomato, Chicken Gravy, Cream Sauce, Parmesan",
       "14.99"
     ),
     createData(
       7,
       "Macaroni Prashant",
-      "assets/img/pizza-calabrian.png",
+      "assets/img/img_holder.png",
       "Mushroom, Fresh Tomato, Chicken Gravy, Cream Sauce, Parmesan Cheese",
       "12.99"
     ),
     createData(
       8,
       "Macaroni Cream Sauce",
-      "assets/img/pizza-calabrian.png",
+      "assets/img/img_holder.png",
       "with Parmesan cheese and ham",
       "11.99"
     ),
     createData(
       9,
       "Spaghetti Salmon",
-      "assets/img/pizza_veg.png",
+      "assets/img/img_holder.png",
       "Salmon, Garlic, Green Onion, Tomato Sauce, Cream Sauce",
       "15.99"
     ),
