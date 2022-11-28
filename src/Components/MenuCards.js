@@ -9,7 +9,7 @@ const MenuCards = () =>{
         <h2 className="text-3xl font-bold tracking-tight text-red-800 sm:text-3xl md:text-4xl mt-6">Traditional Itlian Cuisine and Pizza</h2>
         <h3 classNAme="font-medium text-4xl mt-10 mb-2 text-[#322212]">Now We Are Open With Full Dine. we offer you the best flavors of Italian cuisine</h3>
         <div className="flex justify-center py-10">
-  <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5">
+  <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5 ">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <img className="rounded-t-lg" src={pizza} alt=""/>
     </a>
