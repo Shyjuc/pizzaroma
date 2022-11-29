@@ -5,7 +5,7 @@ import dessert from '../assets/img/desserts.png';
 import { Link } from "react-router-dom";
 
 const MenuCards = () =>{const [click, setClick] = useState(false);
-  const closeMobileMenu = () => setClick(false);
+
 
 
     return(
@@ -25,7 +25,7 @@ const MenuCards = () =>{const [click, setClick] = useState(false);
       <Link
                       to="/pizzas"
                       className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                      onClick={closeMobileMenu}
+                      
                     >
                       View more
                     </Link>
@@ -44,7 +44,7 @@ const MenuCards = () =>{const [click, setClick] = useState(false);
       <Link
                       to="/pastas"
                       className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                      onClick={closeMobileMenu}
+                      
                     >
                       View more
                     </Link>
@@ -62,7 +62,7 @@ const MenuCards = () =>{const [click, setClick] = useState(false);
       <Link
                       to="/desserts"
                       className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                      onClick={closeMobileMenu}
+                      
                     >
                       View more
                     </Link>

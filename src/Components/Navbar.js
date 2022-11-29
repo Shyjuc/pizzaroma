@@ -10,8 +10,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const [click, setClick] = useState(false);
-  const closeMobileMenu = () => setClick(false);
 
   return (
     <div>
@@ -80,7 +78,7 @@ const Navbar = () => {
           <Link
                       to="/pizzas"
                       className="nav-link scrollto active"
-                      onClick={closeMobileMenu}
+                      
                     >
                       Pizzas
                     </Link>
@@ -89,7 +87,7 @@ const Navbar = () => {
           <Link
                       to="/pastas"
                       className="nav-link scrollto active"
-                      onClick={closeMobileMenu}
+                      
                     >
                       Pasta
                     </Link>
@@ -98,7 +96,7 @@ const Navbar = () => {
           <Link
                       to="/salads"
                       className="nav-link scrollto active"
-                      onClick={closeMobileMenu}
+                      
                     >
                       Salads
                     </Link>
@@ -107,7 +105,7 @@ const Navbar = () => {
           <Link
                       to="/desserts"
                       className="nav-link scrollto active"
-                      onClick={closeMobileMenu}
+                      
                     >
                       Desserts
                     </Link>
@@ -116,7 +114,7 @@ const Navbar = () => {
           <Link
                       to="/order"
                       className="nav-link scrollto active"
-                      onClick={closeMobileMenu}
+                      
                     >
                       Order now
                     </Link>
