@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const MenuCards = () =>{const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);
-  const handleClick = () => setClick(!click);
+
 
     return(
         <>

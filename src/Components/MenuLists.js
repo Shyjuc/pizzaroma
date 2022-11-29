@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const MenuLists = () =>{const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);
-  const handleClick = () => setClick(!click);
+ 
     return(
         <>
         <h2 class="font-medium leading-tight text-4xl mt-10 mb-2 text-red-600">Pizzas</h2>

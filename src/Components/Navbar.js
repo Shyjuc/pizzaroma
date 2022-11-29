@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);
-  const handleClick = () => setClick(!click);
+
   return (
     <div>
       <nav className="bg-[#322212] dark:bg-gray-800 shadow-inner-xl z-50">
