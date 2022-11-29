@@ -6,6 +6,7 @@ import Pizzas from "./Components/pages/Pizzas";
 import Salads from "./Components/pages/Salads";
 import Pastas from "./Components/pages/Pastas";
 import Desserts from "./Components/pages/Desserts";
+import Order from "./Components/pages/Order";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/pastas" element={<Pastas />} />
         <Route path="/salads" element={<Salads />} />
         <Route path="/desserts" element={<Desserts />} />
+        <Route path="/order" element={<Order />} />
       </Routes>
     </Router>
   );

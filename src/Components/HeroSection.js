@@ -60,12 +60,13 @@ const HeroSection = () => {
                       Desserts
                     </Link>
 
-                    <a
-                      href="/"
-                      className="font-medium text-red-600 hover:text-indigo-500"
+                    <Link
+                      to="/order"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
                     >
-                      Order Now
-                    </a>
+                      Order now
+                    </Link>
                     <i
                       onClick={handleClick}
                       className="bi bi-list mobile-nav-toggle"

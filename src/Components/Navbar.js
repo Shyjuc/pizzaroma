@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,6 +9,10 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+
+  const [click, setClick] = useState(false);
+  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click);
   return (
     <div>
       <nav className="bg-[#322212] dark:bg-gray-800 shadow-inner-xl z-50">
@@ -71,11 +76,51 @@ const Navbar = () => {
             </div>
           
             <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Home</li>
-          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Pizza</li>
-          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Pasta</li>
-          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Salads</li>
-          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Desserts</li>
-          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Order Now</li>
+          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+          <Link
+                      to="/pizzas"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
+                    >
+                      Pizzas
+                    </Link>
+          </li>
+          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+          <Link
+                      to="/pastas"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
+                    >
+                      Pasta
+                    </Link>
+          </li>
+          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+          <Link
+                      to="/salads"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
+                    >
+                      Salads
+                    </Link>
+          </li>
+          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+          <Link
+                      to="/desserts"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
+                    >
+                      Desserts
+                    </Link>
+          </li>
+          <li className='p-4 text-white hover:text-[#f0cfa5] dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+          <Link
+                      to="/order"
+                      className="nav-link scrollto active"
+                      onClick={closeMobileMenu}
+                    >
+                      Order now
+                    </Link>
+          </li>
           </div>
         </div>
       </nav>

@@ -1,13 +1,17 @@
+import React, { useState } from "react";
 import pizza1 from '../assets/img/pizza_margeritta.png';
 import pizza2 from '../assets/img/pizza_toscana.png';
 import pizza3 from '../assets/img/pizza_veg.png';
 import pizza4 from '../assets/img/pizza-calabrian.png';
+import { Link } from "react-router-dom";
 
-const MenuLists = () =>{
+const MenuLists = () =>{const [click, setClick] = useState(false);
+  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click);
     return(
         <>
-        <h2 class="font-medium leading-tight text-4xl mt-10 mb-2 text-blue-600">Pizzas</h2>
-        <div className="flex justify-center py-10">
+        <h2 class="font-medium leading-tight text-4xl mt-10 mb-2 text-red-600">Pizzas</h2>
+        <div className="flex justify-center py-10 grid md:grid-cols-4">
   <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <img className="rounded-t-lg" src={pizza1} alt=""/>
@@ -17,7 +21,13 @@ const MenuLists = () =>{
       <p className="text-gray-700 text-base mb-4">
       The best Italian flavors, are preparing hygienic conditions..
       </p>
-      <button type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Order Now</button>
+      <Link
+                      to="/order"
+                      className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      onClick={closeMobileMenu}
+                    >
+                      Order now
+                    </Link>
     </div>
   </div>
   <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5">
@@ -29,7 +39,13 @@ const MenuLists = () =>{
       <p className="text-gray-700 text-base mb-4">
       The best Italian flavors, are preparing hygienic conditions.
       </p>
-      <button type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Order Now</button>
+      <Link
+                      to="/order"
+                      className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      onClick={closeMobileMenu}
+                    >
+                      Order now
+                    </Link>
     </div>
   </div>
   <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5">
@@ -41,7 +57,13 @@ const MenuLists = () =>{
       <p className="text-gray-700 text-base mb-4">
       The best Italian flavors, are preparing hygienic conditions.
       </p>
-      <button type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Order Now</button>
+      <Link
+                      to="/order"
+                      className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      onClick={closeMobileMenu}
+                    >
+                      Order now
+                    </Link>
     </div>
   </div>
   <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5">
@@ -53,7 +75,13 @@ const MenuLists = () =>{
       <p className="text-gray-700 text-base mb-4">
       The best Italian flavors, are preparing hygienic conditions.
       </p>
-      <button type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Order Now</button>
+      <Link
+                      to="/order"
+                      className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      onClick={closeMobileMenu}
+                    >
+                      Order now
+                    </Link>
     </div>
   </div>
 </div>
