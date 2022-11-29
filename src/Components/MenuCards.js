@@ -1,12 +1,9 @@
-import React, { useState } from "react";
 import pizza from '../assets/img/pizza_1.png';
 import pasta from '../assets/img/pasta.png';
 import dessert from '../assets/img/desserts.png';
 import { Link } from "react-router-dom";
 
-const MenuCards = () =>{const [click, setClick] = useState(false);
-
-
+const MenuCards = () =>{
 
     return(
         <>

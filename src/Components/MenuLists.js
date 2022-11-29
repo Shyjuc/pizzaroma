@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import pizza1 from '../assets/img/pizza_margeritta.png';
 import pizza2 from '../assets/img/pizza_toscana.png';
 import pizza3 from '../assets/img/pizza_veg.png';
