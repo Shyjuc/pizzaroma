@@ -94,20 +94,24 @@ const HeroSection = () => {
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <a
-                      href="/"
+                  <Link
+                      to="/pizzas"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 md:py-4 md:px-10 md:text-lg"
+                      onClick={closeMobileMenu}
                     >
-                      View Menu
-                    </a>
+                      View menu
+                    </Link>
+                    
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <a
-                      href="/"
+                  <Link
+                      to="/order"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-100 px-8 py-3 text-base font-medium text-red-700 hover:bg-red-200 md:py-4 md:px-10 md:text-lg"
+                      onClick={closeMobileMenu}
                     >
-                      Order Now
-                    </a>
+                      Order now
+                    </Link>
+                    
                   </div>
                 </div>
               </div>
