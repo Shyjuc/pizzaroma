@@ -10,7 +10,7 @@ const MenuLists = () =>{
     return(
         <>
         <h2 class="font-medium leading-tight text-4xl mt-10 mb-2 text-red-600">Pizzas</h2>
-        <div className="flex justify-center py-10 grid md:grid-cols-4">
+        <div className="flex justify-center py-10 px-10 grid md:grid-cols-4">
   <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <img className="rounded-t-lg" src={pizza1} alt=""/>

@@ -7,7 +7,7 @@ const MenuCards = () =>{
 
     return(
         <>
-        <h2 className="text-3xl font-bold tracking-tight text-red-800 sm:text-3xl md:text-4xl mt-6">Traditional Itlian Cuisine and Pizza</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-red-800 sm:text-3xl md:text-4xl mt-6">Traditional Italian Cuisine and Pizza</h2>
         <h3 classNAme="font-medium text-4xl mt-10 mb-2 text-[#322212]">Now We Are Open With Full Dine. we offer you the best flavors of Italian cuisine</h3>
         <div className="flex justify-center py-10 px-10 grid md:grid-cols-3">
   <div className="rounded-lg shadow-lg bg-white max-w-sm mx-5 ">

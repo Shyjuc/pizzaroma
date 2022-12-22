@@ -6,6 +6,8 @@ import Pizzas from "./Components/pages/Pizzas";
 import Salads from "./Components/pages/Salads";
 import Pastas from "./Components/pages/Pastas";
 import Desserts from "./Components/pages/Desserts";
+import About from "./Components/pages/About";
+import Menu from "./Components/pages/Menu";
 import Order from "./Components/pages/Order";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
         <Route path="/pizzas" element={<Pizzas />} />
         <Route path="/pastas" element={<Pastas />} />
         <Route path="/salads" element={<Salads />} />
