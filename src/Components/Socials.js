@@ -11,7 +11,7 @@ function Socials() {
         <span class="text-grey-600 font-bold">Join our social media</span>
       </h2>
       <div class="flex flex-wrap justify-center md:space-x-2">
-        <a  target="_blank" href="https://www.facebook.com/profile.php?id=100085586625671" class="inline-block py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100085586625671" class="inline-block py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           style={{ backgroundColor: '#1877f2' }}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-4 h-4 mr-2">
             <path fill="currentColor"
@@ -21,7 +21,7 @@ function Socials() {
         </a>
 
 
-        <a class="inline-block py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100085586625671" class="inline-block py-2.5 px-6 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center"
           style={{ backgroundColor: '#c13584' }}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 mr-2">
             <path fill="currentColor"

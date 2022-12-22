@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Timing() {
   const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);
+  console.log(click);
   return (
     <div>
 <div className="bg-gray-50">

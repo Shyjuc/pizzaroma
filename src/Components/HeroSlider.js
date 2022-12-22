@@ -103,7 +103,7 @@ const HeroSlider = () => {
     console.log(e);
     //let newState;
 
-    carousel.map((item, index) => {
+    carousel.forEach((item, index) => {
       if (index === e - 1) {
         console.log(index);
         setCarousel((draft) => {

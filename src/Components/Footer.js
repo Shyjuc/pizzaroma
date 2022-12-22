@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () =>{
-  const [click, setClick] = useState(false);
+const [click, setClick] = useState(false);
 const closeMobileMenu = () => setClick(false);
+console.log(click);
 
     return(
         <>
@@ -13,7 +14,7 @@ const closeMobileMenu = () => setClick(false);
       <span>Get connected with us on social networks:</span>
     </div>
     <div className="flex justify-center">
-      <a target="_blank" href="https://www.facebook.com/profile.php?id=100085586625671" className="mr-6 text-gray-600">
+      <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100085586625671" className="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
           className="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512">
@@ -23,7 +24,7 @@ const closeMobileMenu = () => setClick(false);
         </svg>
       </a>
       
-      <a href="#!" className="mr-6 text-gray-600">
+      <a href="/" className="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
           className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path fill="currentColor"
@@ -31,7 +32,7 @@ const closeMobileMenu = () => setClick(false);
           </path>
         </svg>
       </a>
-      <a href="#!" className="mr-6 text-gray-600">
+      <a href="/" className="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
           className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">

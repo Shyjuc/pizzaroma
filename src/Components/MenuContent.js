@@ -11,12 +11,14 @@ function MenuContent() {
 
   const filterItems = (category) => {
     console.log("click", category);
-    if (category == "all") {
+    if (category === "all") {
       setMenuItems(items);
+      setCategories(allCategories);
       return;
     }
     const newItems = items.filter((item) => item.category === category);
     setMenuItems(newItems);
+    
   };
 
   const onButtonClick = () => {
